@@ -20,6 +20,8 @@ Lets use 48bits IP address stored in MAC address!
 # Consequences
 Switches are still working fine without modification.
 
+ARP become useless.
+
 Vlan are still working the same way.
 
 We need a new ethertype.
@@ -37,6 +39,10 @@ No more needed after full migration.
 ## Firewall
 
 Easy to adapte.
+
+# DHCP?
+
+
 
 ## What else?
 
