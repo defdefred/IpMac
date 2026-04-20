@@ -11,7 +11,7 @@ Internet Protocol using configurable MAC address
 # Proposal
 Lets use 48bits IP address stored in MAC address!
 
-0.0.x.x.x.x will be the legacy internet for compatibility and non breaking migration.
+0.0.x.x.x.x will be the legacy internet for IPv4 compatibility, encapsulation and non breaking migration.
 
 0.0.127.0.0.1 will be the local host.
 
@@ -26,11 +26,13 @@ Vlan are still working the same way.
 
 We need a new ethertype.
 
-Routeur/OS need to be able to manage the new IpMac protocole.
+Routeur/OS need to be able to manage the new IpMac protocole and IPv4 encapsulation.
 
 After migration all 0.0.x.x.x.x will be private lan.
 
-After migration we gain 64bits of src and dst IP address for IP data.
+After migration we gain 64bits from src and dst IP address for IP data.
+
+MAC address economy collapse, all equipment are using 0.0.0.0.0.0 by default.
 
 ## NAT?
 
