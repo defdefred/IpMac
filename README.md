@@ -57,7 +57,7 @@ Possible to accept only known pub key.
 Work the same...
 
 # DNS
-Shoul reply IPv4 or IPv5 address depending of the IP protool used for asking.
+Should reply IPv4 or IPv5 address depending of the IP protool used for asking.
 
 ## What else?
 
