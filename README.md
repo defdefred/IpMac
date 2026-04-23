@@ -45,9 +45,11 @@ Easy to adapte.
 
 # DHCP?
 
-request via ethernet broadcast + public key.
-reply via ethernet broadcast + encryptied IpMac and ack token.
-ack with proposed IpMac + encrypted ack token.
+request via ethernet broadcast + self generated public key.
+
+reply via ethernet broadcast + public key encrypted IPv5 address and ack token.
+
+ack from proposed IPv5 address + private key encrypted ack token.
 
 Possible to accept only known pub key.
 
