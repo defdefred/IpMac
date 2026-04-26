@@ -1,6 +1,12 @@
 # IPv5
 Internet Protocol using configurable MAC address to suppress ARP overhead.
 
+# IPv4 optimization
+I don't understand why ARP is still existing nowdays while all ethernet card have configurable MAC... just set it to 0.0.IP.IP.IP.IP and everybody knows your MAC address.
+
+As MAC are 48bits, we could also extend IP to 48 bits and forget the IPv6 mess...
+
+
 # Facts
 32bits IPv4 is too small for an 8 gigahumans planet.
 
